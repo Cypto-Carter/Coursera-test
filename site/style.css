@@ -1,0 +1,35 @@
+/*Colors:
+1. Oxford Blue #000022
+2. Oxford Blue #001242
+3. Blue NCS #0094C6
+4. Blue Sapphire #005E7C
+5. Rich Black #040F16
+
+Light: #75cdeb
+*/
+
+
+body {
+color: #3210c9;
+text-align: center;
+font-family: "Sofia", sans-serif;
+}
+
+h1 {
+    border:8px solid red;
+}
+
+header {
+    border:8px solid red;
+}
+
+.container {
+    border:8px solid red;
+}
+.col-sm {
+    border:3px solid green;
+}
+
+kbd {
+    background-color: indianred;
+}
