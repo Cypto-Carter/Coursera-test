@@ -10,7 +10,8 @@ Light: #75cdeb
 
 
 body {
-color: #3210c9;
+background-color: darkslategray;
+color: #fff;
 text-align: center;
 font-family: "Sofia", sans-serif;
 }
@@ -32,4 +33,14 @@ header {
 
 kbd {
     background-color: indianred;
+}
+.bi-phone-vibrate {
+    background-color: forestgreen;
+    font-size: 5em;
+    color: hotpink;
+}
+i:hover {
+color: indigo;
+background-color: lightblue;
+text-decoration: underline;
 }
