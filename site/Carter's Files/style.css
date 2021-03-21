@@ -1,0 +1,39 @@
+/*Colors:
+1. Oxford Blue #000022
+2. Oxford Blue #001242
+3. Blue NCS #0094C6
+4. Blue Sapphire #005E7C
+5. Rich Black #040F16
+
+Light: #75cdeb
+*/
+
+body {
+    background-color: #3b5998;
+    color: black;
+}
+
+p {
+    margin: 15px auto 0px auto;
+    width: 80%;
+    height: 900px;
+    background-color: white;
+}
+#header1 {
+    height: 75px;
+    background-color: white;
+    border-bottom: black 3px solid;
+    font-size: 3em;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-style: normal; 
+    color: #3b5998;
+}
+#imgB {
+    border: black 3px solid;
+    width: 20px;
+    height: 20px;
+    text-align: center;
+}
+#img1 {
+    margin: 10 auto 10 auto;
+}
