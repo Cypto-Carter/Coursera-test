@@ -1,0 +1,38 @@
+html {
+    height: 100%;
+}
+body {
+    height: 100%;
+    margin: 0;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: white;
+    background-color: slategray;
+    font-family: 'Josefin Sans', sans-serif;
+    text-align: center;
+}
+header {
+    text-align: center;
+    height: 10%;
+    margin: 0;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: black;
+    background-color: #75cdeb;
+    border-bottom: 1px solid black;
+    font-size: 50px;
+}
+#Canvas {
+    background-image: linear-gradient(180deg, orange, red);
+    border:2px solid blue;
+    position: absolute;  
+    left: 50%;
+    margin-left:-400px; 
+    top: 50%;
+    margin-top:-200px;
+}
+p {
+    color: black;
+    font-size: 2em;
+    
+}
