@@ -1,39 +1,38 @@
-/*Colors:
-1. Oxford Blue #000022
-2. Oxford Blue #001242
-3. Blue NCS #0094C6
-4. Blue Sapphire #005E7C
-5. Rich Black #040F16
-
-Light: #75cdeb
-*/
-
+html {
+    height: 100%;
+}
 body {
-    background-color: #3b5998;
-    color: black;
-}
-
-p {
-    margin: 15px auto 0px auto;
-    width: 80%;
-    height: 900px;
-    background-color: white;
-}
-#header1 {
-    height: 75px;
-    background-color: white;
-    border-bottom: black 3px solid;
-    font-size: 3em;
-    font-family: 'Noto Sans KR', sans-serif;
-    font-style: normal; 
-    color: #3b5998;
-}
-#imgB {
-    border: black 3px solid;
-    width: 20px;
-    height: 20px;
+    height: 100%;
+    margin: 0;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: white;
+    background-color: slategray;
+    font-family: 'Josefin Sans', sans-serif;
     text-align: center;
 }
-#img1 {
-    margin: 10 auto 10 auto;
+header {
+    text-align: center;
+    height: 10%;
+    margin: 0;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: black;
+    background-color: #75cdeb;
+    border-bottom: 1px solid black;
+    font-size: 50px;
+}
+#Canvas {
+    background-image: linear-gradient(180deg, orange, red);
+    border:2px solid blue;
+    position: absolute;  
+    left: 50%;
+    margin-left:-400px; 
+    top: 50%;
+    margin-top:-200px;
+}
+p {
+    color: black;
+    font-size: 2em;
+    
 }
